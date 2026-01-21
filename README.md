@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Abdul Rahman (Abu)
+# 👋 Hi, I'm Abdul Rahman Mohamed
 
 🎓 Biomedical Engineering Undergraduate  
 📍 Sri Lanka
