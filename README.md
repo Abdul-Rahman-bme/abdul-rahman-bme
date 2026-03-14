@@ -1,11 +1,13 @@
 # 👋 Hi, I'm Abdul Rahman Mohamed
 
-🎓 Biomedical Engineering Undergraduate  
-📍 Sri Lanka
+🎓 Biomedical Engineering Undergraduate of Department of Electronic and Telecommunication Engineering
+📍 Moratuwa, Sri Lanka
 
 I’m a passionate Biomedical Engineering student with strong interests in:
 - Biomedical instrumentation  
-- Bio-signal processing  
+- Bio-signal processing
+- Machine Learning
+- Computer Vision
 - Medical device design  
 - Healthcare innovation  
 
@@ -23,11 +25,10 @@ I enjoy building practical, real-world engineering solutions that improve lives.
 ## 🛠️ Technical Skills
 
 **Programming & Tools**
-- C, MATLAB, Python, HTML
-- Arduino, Microcontrollers
-- Altium Designer
+- C++, MATLAB, Python, HTML
+- Arduino, ESP32, Microcontrollers
+- Altium Designer, SOLIDWORKS
 - LTSpice
-- Quartus Prime Lite
 
 **Engineering**
 - Biomedical Instrumentation
@@ -51,25 +52,25 @@ I enjoy building practical, real-world engineering solutions that improve lives.
 
 ## 🏆 Achievements & Roles
 - 🥈 2nd Runners Up – **Brainstorm 2025**
-- Committee Member – **Electronic Club, University of Moratuwa**
-- Finance Lead - **IEEE EMBS, University of Moratuwa**
 - Experience in Industrial Relations & Event Coordination - **Main Branch, E-Club, University of Moratuwa**
+- Finance Lead - **IEEE EMBS, University of Moratuwa**
+- Committee Member – **Electronic Club, University of Moratuwa**
+- Committe Member - **IEEE SPS SB, University of Moratuwa**
 
 ---
 ### ☀️ Automatic Analog Solar Tracker
 - Fully analog solar tracking system (no microcontroller)
 - Uses LDRs, op-amps, and comparator circuits
-- Automatically aligns the panel for maximum sunlight exposure
+- Automatically aligns the panel for maximum sunlight exposure by the use of PID controllers
 - Demonstrates strong fundamentals in analog electronics and control systems
 
 🔗 [Project Repository](#)
 ---
 ## 🌱 Currently Learning
-- Biomedical Device Design (Biodesign Process)
+- Machine Learning
 - Human Anatomy & Physiology
 - Advanced PCB Design
 - Signal Processing Concepts
-
 
 ---
 
