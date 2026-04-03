@@ -20,7 +20,6 @@ I'm a **second-year Biomedical Engineering undergraduate** at the **University o
 - 🎓 **CGPA: 3.79/4.00** (Dean's List - Semesters 1 & 2)
 - 🔬 Building practical engineering solutions that improve lives
 - 🧠 Deep interest in **AI/ML for healthcare**, **wearable health monitoring**, and **medical device design**
-- 🏆 Award-winning project developer (Brainstorm 2025 - 2nd Runners Up)
 - 📊 Proficient in **Python**, **C/C++**, **MATLAB**, and **embedded systems**
 
 ### 🎯 Research Interests
