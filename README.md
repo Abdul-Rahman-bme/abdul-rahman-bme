@@ -38,7 +38,7 @@ Wearable Health Monitoring • Embedded Systems • Computer Vision • Medical 
 
 **🏛️ University of Moratuwa**  
 *B.Sc. Engineering (Hons.) in Biomedical Engineering*  
-📅 Feb 2024 – Present  
+📅 June 2024 – Present  
 📊 **CGPA: 3.79/4.00** (Dean's List)
 
 **Key Coursework:**
