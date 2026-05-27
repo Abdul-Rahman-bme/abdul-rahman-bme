@@ -1,65 +1,110 @@
 <div align="center">
 
+<img src="./assets/biomedical-wearable-lab.svg" alt="Animated biomedical wearable engineering banner" width="100%" />
+
+<br/>
+
 # 👋 Hi, I'm Abdul Rahman Mohamed Farharth
 
-### Biomedical Engineering Undergraduate | ML Enthusiast | Healthcare Innovator
+### Biomedical Engineering Undergraduate • Embedded Healthcare Systems • Signal Processing • AI/ML
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://abdul-rahman-bme.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdul-rahman-m-005811249)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulrahmanfarharth@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdul-Rahman-bme)
+<a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+wearable+healthcare+devices;Designing+PCB+%2B+embedded+systems+for+biomedical+signals;Turning+ECG%2C+PPG%2C+EMG+and+sensor+data+into+insight;Exploring+Edge+AI+for+medical+device+innovation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+wearable+healthcare+devices;Designing+PCB+%2B+embedded+systems+for+biomedical+signals;Turning+ECG%2C+PPG%2C+EMG+and+sensor+data+into+insight;Exploring+Edge+AI+for+medical+device+innovation" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<a href="https://abdul-rahman-bme.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=About.me&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/abdul-rahman-m-005811249"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="mailto:abdulrahmanfarharth@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://github.com/Abdul-Rahman-bme"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+<img src="https://komarev.com/ghpvc/?username=Abdul-Rahman-bme&label=Profile%20Views&color=00e5ff&style=for-the-badge" alt="Profile views" />
 
 </div>
 
 ---
 
-## 🚀 About Me
+## ⚡ Engineering Identity
 
-I'm a **second-year Biomedical Engineering undergraduate** at the **University of Moratuwa** with a passion for developing innovative healthcare solutions through the intersection of **biomedical instrumentation**, **signal processing**, **machine learning**, and **embedded systems**.
+I am a **Biomedical Engineering undergraduate at the University of Moratuwa** building at the intersection of **medical devices, embedded systems, physiological signal processing, computer vision, and healthcare AI**.
 
-- 🎓 **CGPA: 3.79/4.00** (Dean's List - Semesters 1 & 2)
-- 🔬 Building practical engineering solutions that improve lives
-- 🧠 Deep interest in **AI/ML for healthcare**, **wearable health monitoring**, and **medical device design**
-- 📊 Proficient in **Python**, **C/C++**, **MATLAB**, and **embedded systems**
+```yaml
+focus:
+  - wearable healthcare monitoring
+  - embedded biomedical instrumentation
+  - ECG / PPG / EMG / EEG signal processing
+  - medical device prototyping
+  - edge AI + IoT for healthcare
 
-### 🎯 Research Interests
-```
-Biomedical Instrumentation • Physiological Signal Processing • Machine Learning in Healthcare
-Wearable Health Monitoring • Embedded Systems • Computer Vision • Medical Device Design
+currently_building:
+  - noisy PPG heart-rate estimation using GANs
+  - real-time computer vision inspection pipelines
+  - low-cost healthcare IoT and monitoring systems
+
+engineering_style:
+  - sensor-first thinking
+  - clean signal acquisition
+  - practical hardware validation
+  - deployable ML pipelines
 ```
 
 ---
 
-## 🎓 Education
+## 🩺 Wearable Health-Tech Signal Chain
+
+```mermaid
+flowchart LR
+    A[Patient / User] --> B[Biomedical Sensor<br/>ECG • PPG • EMG • FSR • Temp]
+    B --> C[Analog Front-End<br/>Filtering • Gain • Protection]
+    C --> D[MCU / Edge Device<br/>ESP32 • Arduino • Raspberry Pi]
+    D --> E[Signal Processing<br/>FFT • MFCC • Denoising • Features]
+    E --> F[AI / Logic Layer<br/>ML • CV • Alerts • Classification]
+    F --> G[Healthcare Output<br/>Dashboard • Feedback • IoT Alerts]
+
+    style A fill:#0D1117,stroke:#00E5FF,color:#EAF8FF
+    style B fill:#102942,stroke:#6DFFB8,color:#EAF8FF
+    style C fill:#102942,stroke:#6DFFB8,color:#EAF8FF
+    style D fill:#102942,stroke:#00E5FF,color:#EAF8FF
+    style E fill:#102942,stroke:#00E5FF,color:#EAF8FF
+    style F fill:#102942,stroke:#B7FF5A,color:#EAF8FF
+    style G fill:#0D1117,stroke:#B7FF5A,color:#EAF8FF
+```
+
+---
+
+## 🎓 Education & Highlights
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🏛️ University of Moratuwa**  
-*B.Sc. Engineering (Hons.) in Biomedical Engineering*  
+### 🏛️ University of Moratuwa
+**B.Sc. Engineering (Hons.) in Biomedical Engineering**  
 📅 June 2024 – Present  
-📊 **CGPA: 3.79/4.00** (Dean's List)
+📊 **CGPA: 3.79 / 4.00**  
+🏅 **Dean's List — Semesters 1 & 2**
 
-**Key Coursework:**
+**Relevant Coursework**
 - Signal Processing & Systems
 - Biomedical Instrumentation
 - Embedded Systems
 - Machine Learning
 - Medical Imaging
+- Control Systems
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🎓 Zahira College, Colombo**  
-*G.C.E. Advanced Level*  
-📅 2020 – 2023  
-🏆 **3 A's** (All Distinctions)  
-📍 Island Rank: **407** | Z-Score: **2.3330**
+### 🎓 Zahira College, Colombo
+**G.C.E. Advanced Level**  
+🏆 **3 A's**  
+📍 Island Rank: **407**  
+📈 Z-Score: **2.3330**
 
-**🏅 ACCA – Accounting & Finance**  
-✅ Financial & Management Accounting  
-📖 Currently Reading: Business Technology
+### 🏅 ACCA
+- Financial Accounting
+- Management Accounting
+- Currently reading Business Technology
 
 </td>
 </tr>
@@ -67,219 +112,160 @@ Wearable Health Monitoring • Embedded Systems • Computer Vision • Medical 
 
 ---
 
-## 💼 Professional Experience
+## 🧠 Core Technical Stack
 
-### 🎯 Leadership Roles
+<div align="center">
+
+### Languages & ML
+<img src="https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,opencv,sklearn&theme=dark" alt="Languages and ML tools" />
+
+### Embedded, Hardware & Tools
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,linux,git,github,vscode&theme=dark" alt="Embedded and hardware tools" />
+
+</div>
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-**💰 Finance Lead** - Brainstorm 2026  
-*IEEE EMBS Student Branch Chapter*  
-📅 2025 – Present
-
-Managing budget planning, financial operations, and sponsorship coordination for Brainstorm 2026.
-
-</td>
-<td>
-
-**📱 Social Media Manager**  
-*IEEE EMBS & IEEE SPS Student Branches*  
-📅 2025 – Present
-
-Leading technical content creation and community engagement for biomedical and signal processing chapters.
+### ⚙️ Hardware + Embedded
+- ESP32, Arduino, Raspberry Pi
+- Real-time data acquisition
+- Sensor integration and calibration
+- MQTT, Telegram alerts, IoT monitoring
+- Custom PCB workflows and enclosure design
 
 </td>
-</tr>
-<tr>
-<td>
+<td width="50%" valign="top">
 
-**⚡ IR Pillar Member**  
-*Electronic Club, University of Moratuwa*  
-📅 2025 – Present
-
-Managing industry relations and external partnerships.
-
-</td>
-<td>
-
-**🏸 Shuttle Fest 2026 Chairperson**  
-*Electronic Club, University of Moratuwa*  
-📅 2026
-
-Leading organization of annual badminton tournament.
+### 🩺 Biomedical + AI
+- ECG, PPG, EMG, EEG signal processing
+- Filtering, FFT, MFCC, denoising
+- YOLO-based computer vision
+- PyTorch deep learning workflows
+- Healthcare-focused ML validation
 
 </td>
 </tr>
 </table>
-
-### 🏆 Achievements
-
-- 🥈 **2nd Runners Up** - Brainstorm 2025 (Biomedical Engineering Competition)
-- 📚 **Dean's List** - Semester 1 & 2 (CGPA: 3.79/4.00)
-- 🧮 **Distinction Award** - Sri Lanka Mathematics Olympiad 2018
-- 🎖️ **Merit Pass** - GCE Advanced Level (National Level)
-
----
-
-## 🛠️ Technical Skills
-
-### 💻 Programming & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-### 🤖 Machine Learning & AI
-- **Computer Vision**: YOLO (v11), Object Detection, Real-time Inference
-- **Deep Learning**: PyTorch, CNN Architectures, GANs
-- **Signal Processing**: FFT, MFCC, Filtering, Noise Reduction
-- **Data Science**: NumPy, Pandas, Matplotlib, Scikit-learn
-
-### ⚡ Hardware & Embedded Systems
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
-
-- **PCB Design**: Altium Designer (4-layer designs, signal integrity)
-- **Circuit Simulation**: LTSpice, Analog Electronics
-- **IoT Platforms**: ESP32, MQTT, Real-time Data Acquisition
-
-### 🩺 Biomedical & Signal Processing
-- **Physiological Signals**: ECG, EMG, EEG, PPG
-- **Medical Imaging**: Image Processing, Analysis
-- **Biomedical Instrumentation**: Sensor Integration, Data Acquisition
-- **Control Systems**: PID Controllers, Analog/Digital Control
-
-### 🎨 Design & CAD
-![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?style=flat-square&logo=dassault-systemes&logoColor=white)
-- **3D Modeling**: SOLIDWORKS (Enclosure Design, Assemblies)
-- **PCB Layout**: Multi-layer boards, Component Placement
-- **Prototyping**: From Concept to Physical Product
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔍 [Large-Scale License Plate Detection with YOLO11](https://github.com/Abdul-Rahman-bme/large-number-plate-detection)
-**Mar 2026** | Computer Vision • Deep Learning • Real-time Processing
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Built an end-to-end computer vision system for real-time license plate detection achieving **mAP50: 0.918** and **Precision: 0.956**.
+### ❤️ PPG Heart Rate Estimation using GANs
+**Signal Processing • PyTorch • Healthcare AI**  
+GAN-based denoising pipeline for heart-rate estimation from noisy photoplethysmography signals.
 
-**🔧 Tech Stack:** Python, YOLO11s, OpenCV, PyTorch, GPU (RTX 4050)  
-**📊 Dataset:** 27,900 images  
-**⚡ Key Features:**
-- Real-time inference pipeline
-- Custom training configuration
-- GPU-accelerated processing
-- Comprehensive evaluation metrics
+<a href="https://github.com/mokshan-123/Estimate-Heart-rate-using-Noisy-PPG">View Repository →</a>
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🧤 [Glove Rejection and Inspection Process (GRIP)](https://github.com/LGsekara1/Glove-Rejection-and-Inspection-Process-GRIP)
-**Ongoing** | Industrial Automation • Computer Vision • IoT
+### 🪑 Smart Posture Monitoring Cushion
+**Embedded Systems • Healthcare • Product Design**  
+🏆 **2nd Runners Up — Brainstorm 2025**  
+FSR-based posture monitoring with vibrotactile feedback and custom product design.
 
-Developing a real-time computer vision pipeline for industrial glove inspection using **Raspberry Pi 5** and **YOLO-based detection**.
+<a href="https://github.com/Abdul-Rahman-bme/PulseCode-Posture-Cushion-P.A.P.A.Y.A">View Repository →</a>
 
-**🔧 Tech Stack:** Python, YOLO, Raspberry Pi 5, OpenCV, JSON  
-**⚡ Key Features:**
-- Real-time conveyor belt monitoring
-- Glove orientation & size classification (S/M/L/XL)
-- Defect detection (label smudging, print errors)
-- JSON output for SCARA robot control
-- Automated quality assurance pipeline
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" valign="top">
 
-### ❤️ [Heart Rate Estimation from Noisy PPG using GAN](https://github.com/mokshan-123/Estimate-Heart-rate-using-Noisy-PPG)
-**Ongoing** | Signal Processing • GANs • Healthcare
+### 🧊 Vaccine Cold Chain Monitoring
+**Healthcare IoT • Embedded Systems • Product Design**  
+Low-cost temperature monitoring and alerting system for vaccine transportation.
 
-Personal research project implementing GAN-based denoising for accurate heart rate estimation from noisy photoplethysmography signals.
+<a href="https://github.com/Abdul-Rahman-bme/Temperature-Controlled-Vaccine-Cooler">View Repository →</a>
 
-**🔧 Tech Stack:** Python, PyTorch, GANs, Signal Processing  
-**⚡ Key Features:**
-- Advanced noise reduction techniques
-- GAN-based signal denoising
-- Real-time heart rate estimation
-- Visualization & validation pipeline
+</td>
+<td width="50%" valign="top">
 
----
+### ⚡ IoT Smart Energy Meter
+**ESP32 • MQTT • Telegram/SMS Alerts**  
+Real-time monitoring of voltage, current, power, energy, frequency and power factor.
 
-### ☀️ [Analog Automatic Solar Tracker (RaDAR)](https://github.com/deelaka-de-mel/Analog-Solar-Tracker/)
-**Dec 2025** | Analog Electronics • Control Systems • PCB Design
+<a href="https://github.com/Abdul-Rahman-bme/iot-smart-energy-meter">View Repository →</a>
 
-Fully analog single-axis solar tracker maximizing photovoltaic energy capture **without microcontrollers**.
+</td>
+</tr>
 
-**🔧 Tech Stack:** Analog Electronics, LTSpice, Altium Designer, SOLIDWORKS  
-**⚡ Key Features:**
-- LDR-based differential sensing
-- Analog PID control with op-amps
-- PWM motor control via L298N
-- Custom 4-layer PCB design
-- Professional enclosure design
+<tr>
+<td width="50%" valign="top">
 
----
+### 🧤 GRIP — Glove Rejection & Inspection Process
+**Computer Vision • Raspberry Pi 5 • Industrial Automation**  
+Real-time YOLO-based glove inspection pipeline with JSON output for robotic control.
 
-### 🪑 [Smart Posture Monitoring Cushion (P.A.P.A.Y.A)](https://github.com/Abdul-Rahman-bme/PulseCode-Posture-Cushion-P.A.P.A.Y.A)
-**Jul 2025** | Embedded Systems • Healthcare • Product Design  
-🏆 **2nd Runners Up - Brainstorm 2025**
+<a href="https://github.com/LGsekara1/Glove-Rejection-and-Inspection-Process-GRIP">View Repository →</a>
 
-Smart cushion providing real-time posture feedback using FSR sensors and vibrotactile alerts.
+</td>
+<td width="50%" valign="top">
 
-**🔧 Tech Stack:** Arduino, FSR Sensors, SolidWorks, Custom PCB  
-**⚡ Key Features:**
-- Real-time posture detection
-- Vibrotactile feedback mechanism
-- Custom PCB & enclosure design
-- Battery management system
-- User-centered design approach
+### ☀️ RaDAR — Analog Solar Tracker
+**Analog Electronics • PCB Design • Control Systems**  
+Fully analog single-axis solar tracker using differential LDR sensing and op-amp control.
 
----
+<a href="https://github.com/deelaka-de-mel/Analog-Solar-Tracker/">View Repository →</a>
 
-### 🧊 [Temperature-Controlled Vaccine Cold Chain Monitoring](https://github.com/Abdul-Rahman-bme/Temperature-Controlled-Vaccine-Cooler)
-**Nov 2025** | Healthcare IoT • System Integration • Product Design
+</td>
+</tr>
 
-Low-cost temperature monitoring system for vaccine transportation in resource-limited settings.
+<tr>
+<td width="50%" valign="top">
 
-**🔧 Tech Stack:** Embedded Systems, SolidWorks, Real-time Monitoring  
-**⚡ Key Features:**
-- Real-time temperature tracking
-- Alert mechanism implementation
-- Transmitter/receiver system design
-- SolidWorks enclosures
-- Complete system integration & validation
+### 🔍 Large-Scale License Plate Detection
+**YOLO11 • OpenCV • PyTorch**  
+Real-time license plate detection with **mAP50: 0.918** and **Precision: 0.956**.
 
----
+<a href="https://github.com/Abdul-Rahman-bme/large-number-plate-detection">View Repository →</a>
 
-### 🎤 [Automatic Speaker Recognition System](https://github.com/DPHeshanRanasinghe/An-Automatic-Speaker-Recognition-System)
-**Mar 2026** | Signal Processing • Machine Learning • MATLAB
+</td>
+<td width="50%" valign="top">
 
-Speaker identification system using FFT-based signal transformation and MFCC feature extraction.
+### 🎤 Automatic Speaker Recognition
+**MATLAB • FFT • MFCC • Classification**  
+Speaker identification system using frequency-domain features and MFCC extraction.
 
-**🔧 Tech Stack:** MATLAB, FFT, MFCC, Classification Algorithms  
-**⚡ Key Features:**
-- Time-domain to frequency-domain conversion
-- MFCC feature extraction pipeline
-- Speaker classification system
-- Audio signal processing
+<a href="https://github.com/DPHeshanRanasinghe/An-Automatic-Speaker-Recognition-System">View Repository →</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### ⚡ [IoT Smart Energy Meter with MQTT and Alerts](https://github.com/Abdul-Rahman-bme/iot-smart-energy-meter)
-**Jan 2025** | IoT • Embedded Systems • Communication Protocols
+## 🏆 Leadership, Experience & Achievements
 
-Independent development of ESP32-based energy monitoring system with real-time alerts.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**🔧 Tech Stack:** ESP32, PZEM-004T, MQTT, Telegram API, SMS  
-**⚡ Key Features:**
-- Real-time electrical parameter measurement (V, I, P, E, f, PF)
-- MQTT-based communication
-- Telegram & SMS alert system
-- LCD display interface
-- Abnormal condition detection
+### Leadership
+- 💰 **Finance Lead** — Brainstorm 2026, IEEE EMBS Student Branch Chapter
+- 📱 **Social Media Manager** — IEEE EMBS & IEEE SPS Student Branches
+- ⚡ **IR Pillar Member** — Electronic Club, University of Moratuwa
+- 🏸 **Chairperson** — Shuttle Fest 2026
+
+</td>
+<td width="50%" valign="top">
+
+### Achievements
+- 🥈 **2nd Runners Up** — Brainstorm 2025
+- 📚 **Dean's List** — Semesters 1 & 2
+- 🧮 **Distinction Award** — Sri Lanka Mathematics Olympiad 2018
+- 🎖️ **Merit Pass** — GCE Advanced Level, National Level
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -287,23 +273,22 @@ Independent development of ESP32-based energy monitoring system with real-time a
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎓 Machine Learning Specialization
-**Coursera** • 2025
+**Coursera • 2025**
 
-**Completed Courses:**
-- ✅ Supervised Machine Learning: Regression and Classification
-- ✅ Advanced Learning Algorithms
-- ✅ Unsupervised Learning, Recommenders, Reinforcement Learning
+- Supervised Machine Learning
+- Advanced Learning Algorithms
+- Unsupervised Learning, Recommenders, Reinforcement Learning
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏥 Medical Image Processing
-**MathWorks** • 2025
+**MathWorks • 2025**
 
-Advanced techniques in medical image analysis, processing, and interpretation using MATLAB.
+Medical image analysis, enhancement, segmentation and interpretation workflows using MATLAB.
 
 </td>
 </tr>
@@ -311,69 +296,72 @@ Advanced techniques in medical image analysis, processing, and interpretation us
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Abdul-Rahman-bme&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Abdul Rahman's GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdul-Rahman-bme&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="165"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdul-Rahman-bme&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&rank_icon=github" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdul-Rahman-bme&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdul-Rahman-bme&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Abdul-Rahman-bme&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub streak" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdul-Rahman-bme&theme=tokyo-night&hide_border=true&bg_color=0D1117&custom_title=Contribution%20Signal%20Graph" alt="GitHub activity graph" />
 
 </div>
 
+> Note: public stats cards depend on third-party services and GitHub API limits. If a card occasionally disappears, the README is not broken; the service may be rate-limited. For maximum reliability, self-host the stats cards later.
+
 ---
 
-## 🌱 Currently Learning
+## 🌱 Current Learning Map
 
 ```python
 current_focus = {
-    "Machine Learning": ["Deep Learning", "Computer Vision", "Neural Networks"],
-    "Healthcare": ["Medical Device Design", "Biomedical Signal Processing"],
-    "Hardware": ["Advanced PCB Design", "Embedded ML", "Real-time Systems"],
-    "Academic": ["Human Anatomy & Physiology", "Medical Imaging", "Control Systems"]
+    "embedded_healthcare": ["wearables", "biosignal acquisition", "medical device design"],
+    "signal_processing": ["PPG denoising", "ECG/EMG/EEG features", "real-time filters"],
+    "machine_learning": ["PyTorch", "computer vision", "edge AI"],
+    "hardware": ["PCB design", "analog front-ends", "battery-powered IoT"],
 }
 ```
 
 ---
 
-## 📫 Get In Touch
+## 🤝 Open to Collaborate On
+
+- 🔬 Biomedical instrumentation and physiological signal-processing research
+- 🩺 Wearable health-monitoring systems and medical device prototypes
+- 🤖 Healthcare AI, computer vision, and embedded ML projects
+- ⚙️ PCB, IoT, sensor integration, and real-time monitoring systems
+- 💡 Internship opportunities in health-tech, medical devices, and embedded systems
+
+---
+
+## 📫 Connect With Me
 
 <div align="center">
 
-### Let's Connect and Collaborate! 🤝
+<a href="https://abdul-rahman-bme.github.io/"><img src="https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-00E5FF?style=for-the-badge"></a>
+<a href="https://www.linkedin.com/in/abdul-rahman-m-005811249"><img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
+<a href="mailto:abdulrahmanfarharth@gmail.com"><img src="https://img.shields.io/badge/📧_Email-Send_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://github.com/Abdul-Rahman-bme"><img src="https://img.shields.io/badge/⭐_GitHub-Follow-100000?style=for-the-badge&logo=github"></a>
 
-I'm always open to discussing **new projects**, **research opportunities**, **healthcare innovations**, or **tech collaborations**.
+<br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-blue?style=for-the-badge)](https://abdul-rahman-bme.github.io/)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect_With_Me-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abdul-rahman-m-005811249)
-[![Email](https://img.shields.io/badge/📧_Email-Send_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulrahmanfarharth@gmail.com)
-[![GitHub](https://img.shields.io/badge/⭐_GitHub-Follow-100000?style=for-the-badge&logo=github)](https://github.com/Abdul-Rahman-bme)
-
-**📞 Phone:** +94 78 953 5127  
-**📍 Location:** Colombo, Sri Lanka
+**📍 Colombo, Sri Lanka**  
+**Building practical biomedical engineering solutions that improve lives.**
 
 </div>
 
 ---
 
-## 🎯 What I'm Looking For
+<div align="center">
 
-- 🔬 **Research Collaborations** in biomedical engineering and healthcare AI
-- 💡 **Internship Opportunities** in medical device companies or health-tech startups
-- 🤝 **Open Source Projects** related to healthcare, ML, or embedded systems
-- 📚 **Learning Partnerships** for advanced topics in signal processing and AI
+### “From biosignal to circuit, from embedded code to clinical impact.”
 
----
-
-### 📈 Visitor Count
-
-![Visitor Count](https://profile-counter.glitch.me/Abdul-Rahman-bme/count.svg)
-
----
-
-⭐ **Feel free to explore my repositories and don't hesitate to reach out!**
-
-*Last Updated: March 2026*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:6DFFB8,100:B7FF5A&height=110&section=footer" width="100%" alt="Footer wave" />
 
 </div>
