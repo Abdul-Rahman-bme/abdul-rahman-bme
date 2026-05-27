@@ -1,0 +1,118 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated wearable healthcare embedded systems banner</title>
+  <desc id="desc">A neon biomedical engineering dashboard with sensor nodes, ECG waves, haptic pulses, FPGA chip, wearable device, and wireless telemetry.</desc>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#102E4A"/>
+      <stop offset="0.45" stop-color="#071827"/>
+      <stop offset="1" stop-color="#030812"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.52" stop-color="#6DFFB8"/>
+      <stop offset="1" stop-color="#C6FF4D"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+    <pattern id="microgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#24435E" stroke-width="1" opacity="0.28"/>
+      <circle cx="0" cy="0" r="1" fill="#2B5D7C" opacity="0.42"/>
+    </pattern>
+    <style>
+      .label { font-family: Inter, Segoe UI, Arial, sans-serif; fill: #B8D9EA; font-weight: 700; letter-spacing: .8px; }
+      .small { font-family: Inter, Segoe UI, Arial, sans-serif; fill: #7EA2B9; font-weight: 600; }
+      .title { font-family: Inter, Segoe UI, Arial, sans-serif; fill: #EAFBFF; font-weight: 900; letter-spacing: .6px; }
+      .trace { stroke: url(#neon); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; filter: url(#glow); stroke-dasharray: 20 13; animation: traceFlow 4.2s linear infinite; }
+      .thinTrace { stroke: #00E5FF; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 5 10; opacity: .52; animation: traceFlow 5.8s linear infinite reverse; }
+      .ecg { stroke: url(#neon); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; filter: url(#glow); stroke-dasharray: 900; stroke-dashoffset: 900; animation: drawWave 4.8s ease-in-out infinite; }
+      .floatA { animation: floatA 4.8s ease-in-out infinite; }
+      .floatB { animation: floatB 5.8s ease-in-out infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-in-out infinite; }
+      .blink { animation: blink 1.3s ease-in-out infinite; }
+      .orbit { transform-origin: 272px 194px; animation: spin 12s linear infinite; }
+      .orbit2 { transform-origin: 930px 198px; animation: spin 16s linear infinite reverse; }
+      .haptic { stroke: #C6FF4D; opacity: .7; stroke-width: 2.6; fill: none; animation: ripple 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes traceFlow { to { stroke-dashoffset: -80; } }
+      @keyframes drawWave { 0% { stroke-dashoffset: 900; opacity: .2; } 42% { stroke-dashoffset: 0; opacity: 1; } 72% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: -900; opacity: .2; } }
+      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-11px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .65; } 50% { transform: scale(1.18); opacity: 1; } }
+      @keyframes blink { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes ripple { 0% { transform: scale(.65); opacity: .72; } 100% { transform: scale(1.35); opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" rx="30" fill="url(#bgGlow)"/>
+  <rect width="1200" height="400" rx="30" fill="url(#microgrid)"/>
+  <ellipse cx="594" cy="190" rx="400" ry="158" fill="#00E5FF" opacity=".06" filter="url(#soft)"/>
+  <ellipse cx="945" cy="198" rx="210" ry="150" fill="#6DFFB8" opacity=".07" filter="url(#soft)"/>
+  <rect x="18" y="18" width="1164" height="364" rx="24" stroke="#2B6687" opacity=".58"/>
+
+  <g class="floatA">
+    <rect x="455" y="98" width="292" height="176" rx="34" fill="#0A1929" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+    <rect x="478" y="122" width="246" height="128" rx="21" fill="#06111F" stroke="#1D4D68"/>
+    <path class="ecg" d="M494 188H528L545 158L566 226L586 188H620L634 171L650 204L668 188H708"/>
+    <text x="601" y="154" text-anchor="middle" class="small" font-size="15">BIO-SIGNAL NODE</text>
+    <circle cx="704" cy="143" r="5" fill="#C6FF4D" class="blink" filter="url(#glow)"/>
+    <circle cx="690" cy="143" r="5" fill="#00E5FF" class="blink" filter="url(#glow)" style="animation-delay:.35s"/>
+    <text x="601" y="232" text-anchor="middle" class="small" font-size="13">ECG • PPG • EMG • HAPTIC FEEDBACK</text>
+  </g>
+
+  <g class="floatB">
+    <path d="M238 126C214 126 194 147 194 172V251C194 280 217 303 246 303H300C329 303 352 280 352 251V171C352 146 332 126 307 126H238Z" fill="#0A1929" stroke="#2C6B8A" stroke-width="2.5"/>
+    <rect x="232" y="151" width="82" height="118" rx="29" fill="#102942" stroke="#00E5FF" stroke-width="2"/>
+    <path d="M247 211H263L271 192L282 228L291 211H307" stroke="#6DFFB8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <circle class="haptic" cx="273" cy="211" r="34"/>
+    <circle class="haptic" cx="273" cy="211" r="50" style="animation-delay:.45s"/>
+    <text x="273" y="331" text-anchor="middle" class="label" font-size="14">HCI + HAPTICS</text>
+  </g>
+
+  <g class="floatA" style="animation-delay:.6s">
+    <rect x="835" y="124" width="190" height="152" rx="24" fill="#0A1929" stroke="#7C3AED" stroke-width="2.5"/>
+    <rect x="884" y="163" width="92" height="74" rx="14" fill="#111C35" stroke="url(#purple)" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="930" y="195" text-anchor="middle" class="label" font-size="20">FPGA</text>
+    <text x="930" y="219" text-anchor="middle" class="small" font-size="12">UART • VERILOG</text>
+    <g stroke="#2E6B86" stroke-width="3" stroke-linecap="round">
+      <path d="M860 146H884M860 174H884M860 202H884M860 230H884M976 146H1000M976 174H1000M976 202H1000M976 230H1000"/>
+      <path d="M900 139V163M930 139V163M960 139V163M900 237V260M930 237V260M960 237V260"/>
+    </g>
+    <text x="930" y="303" text-anchor="middle" class="label" font-size="14">EMBEDDED INTERACTIVE SYSTEMS</text>
+  </g>
+
+  <path class="trace" d="M80 90H170C205 90 213 126 246 126H356C394 126 405 186 455 186"/>
+  <path class="trace" d="M747 188H815C832 188 833 201 850 201H884"/>
+  <path class="trace" d="M745 234H792C816 234 816 270 844 270H1058"/>
+  <path class="thinTrace" d="M78 312H162C190 312 198 292 225 292H375C409 292 422 250 478 250"/>
+  <path class="thinTrace" d="M736 126H791C817 126 817 88 854 88H1114"/>
+
+  <g class="orbit">
+    <circle cx="272" cy="62" r="5" fill="#00E5FF" filter="url(#glow)"/>
+    <circle cx="272" cy="194" r="118" stroke="#00E5FF" stroke-width="2" opacity=".16" stroke-dasharray="10 14"/>
+    <circle cx="272" cy="194" r="92" stroke="#6DFFB8" stroke-width="2" opacity=".16" stroke-dasharray="6 12"/>
+  </g>
+  <g class="orbit2">
+    <circle cx="930" cy="62" r="5" fill="#C6FF4D" filter="url(#glow)"/>
+    <circle cx="930" cy="198" r="118" stroke="#7C3AED" stroke-width="2" opacity=".15" stroke-dasharray="8 14"/>
+    <circle cx="930" cy="198" r="94" stroke="#00E5FF" stroke-width="2" opacity=".14" stroke-dasharray="12 14"/>
+  </g>
+
+  <text x="600" y="54" text-anchor="middle" class="small" font-size="17">SENSOR → SIGNAL → FIRMWARE → EDGE AI → HUMAN FEEDBACK</text>
+  <text x="600" y="338" text-anchor="middle" class="title" font-size="32">Wearable Healthcare • Biomedical Instrumentation • Embedded HCI</text>
+  <text x="600" y="365" text-anchor="middle" class="small" font-size="15">building useful medical-device prototypes from circuits, code, sensing, and user-centered design</text>
+  <path class="ecg" style="animation-delay:.8s" d="M63 364H176L195 338L219 382L241 364H418L440 352L458 364H742L763 334L792 386L816 364H1136"/>
+
+  <circle class="pulse" cx="80" cy="90" r="6" fill="#00E5FF"/>
+  <circle class="pulse" cx="455" cy="186" r="6" fill="#6DFFB8"/>
+  <circle class="pulse" cx="747" cy="188" r="6" fill="#6DFFB8"/>
+  <circle class="pulse" cx="884" cy="201" r="6" fill="#C6FF4D"/>
+  <circle class="pulse" cx="1058" cy="270" r="6" fill="#7C3AED"/>
+</svg>
