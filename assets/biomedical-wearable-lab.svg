@@ -1,0 +1,125 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Biomedical wearable engineering animated banner</title>
+  <desc id="desc">Animated circuit board, ECG wave, wearable health monitor and embedded hardware graphics.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111F"/>
+      <stop offset="0.52" stop-color="#0B1D33"/>
+      <stop offset="1" stop-color="#101B2A"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.55" stop-color="#6DFFB8"/>
+      <stop offset="1" stop-color="#B7FF5A"/>
+    </linearGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#1E3B56" stroke-width="1" opacity="0.35"/>
+    </pattern>
+
+    <style>
+      .muted { fill: #8AA6C1; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .title { fill: #EAF8FF; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; font-weight: 800; letter-spacing: .5px; }
+      .sub { fill: #B6D6EA; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; font-weight: 500; }
+      .tag { fill: #0C1826; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; font-weight: 700; }
+      .trace { stroke: url(#cyanGreen); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; filter: url(#glow); stroke-dasharray: 22 14; animation: flow 3.8s linear infinite; }
+      .softTrace { stroke: #00E5FF; stroke-width: 2; stroke-linecap: round; opacity: .45; stroke-dasharray: 8 12; animation: flow 5s linear infinite reverse; }
+      .pulse { transform-origin: center; animation: pulse 2.2s ease-in-out infinite; }
+      .float { animation: float 4.5s ease-in-out infinite; }
+      .float2 { animation: float 5.4s ease-in-out infinite reverse; }
+      .blink { animation: blink 1.5s ease-in-out infinite; }
+      .wave { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 4.8s ease-in-out infinite; }
+      .orbit { transform-origin: 956px 181px; animation: spin 9s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -72; } }
+      @keyframes draw {
+        0% { stroke-dashoffset: 1200; opacity: .25; }
+        45% { stroke-dashoffset: 0; opacity: 1; }
+        75% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: -1200; opacity: .25; }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: .75; }
+        50% { transform: scale(1.08); opacity: 1; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="324" rx="22" stroke="#2C5878" opacity=".55"/>
+
+  <!-- Circuit board traces -->
+  <path class="softTrace" d="M58 78H212C236 78 246 104 270 104H388C414 104 424 78 448 78H548"/>
+  <path class="softTrace" d="M64 278H186C214 278 224 247 251 247H342C368 247 383 272 410 272H555"/>
+  <path class="trace" d="M62 178H155L182 128L218 232L250 178H320L350 148L384 206L412 178H560"/>
+  <circle class="pulse" cx="62" cy="178" r="7" fill="#00E5FF"/>
+  <circle class="pulse" cx="320" cy="178" r="7" fill="#7DFFAE"/>
+  <circle class="pulse" cx="560" cy="178" r="7" fill="#B7FF5A"/>
+
+  <!-- Left chip -->
+  <g class="float">
+    <rect x="122" y="82" width="86" height="86" rx="14" fill="#102942" stroke="#4C89AA" stroke-width="2"/>
+    <rect x="141" y="101" width="48" height="48" rx="8" fill="#0B1828" stroke="#00E5FF" opacity=".85"/>
+    <path d="M154 126H176M165 115V137" stroke="#6DFFB8" stroke-width="3" stroke-linecap="round"/>
+    <g stroke="#4C89AA" stroke-width="3">
+      <path d="M112 98H122M112 118H122M112 138H122M208 98H218M208 118H218M208 138H218"/>
+      <path d="M138 72V82M158 72V82M178 72V82M138 168V178M158 168V178M178 168V178"/>
+    </g>
+  </g>
+
+  <!-- Main text -->
+  <text x="610" y="86" class="muted" font-size="20">Biomedical Engineering • Embedded Systems • Healthcare AI</text>
+  <text x="610" y="132" class="title" font-size="42">Designing Wearable Health-Tech</text>
+  <text x="610" y="178" class="title" font-size="42">from Sensor to Intelligence</text>
+  <text x="610" y="218" class="sub" font-size="20">ECG • PPG • EMG • PCB Design • Edge ML • IoT Monitoring</text>
+
+  <!-- Tags -->
+  <g transform="translate(610 246)">
+    <rect width="122" height="34" rx="17" fill="#00E5FF"/>
+    <text x="61" y="23" text-anchor="middle" class="tag" font-size="14">ESP32</text>
+    <rect x="136" width="122" height="34" rx="17" fill="#6DFFB8"/>
+    <text x="197" y="23" text-anchor="middle" class="tag" font-size="14">PCB + AFE</text>
+    <rect x="272" width="122" height="34" rx="17" fill="#B7FF5A"/>
+    <text x="333" y="23" text-anchor="middle" class="tag" font-size="14">Signal AI</text>
+  </g>
+
+  <!-- Wearable watch / sensor device -->
+  <g class="float2">
+    <rect x="914" y="73" width="84" height="45" rx="18" fill="#16314C" stroke="#4C89AA" stroke-width="2"/>
+    <rect x="914" y="244" width="84" height="45" rx="18" fill="#16314C" stroke="#4C89AA" stroke-width="2"/>
+    <rect x="884" y="112" width="144" height="142" rx="36" fill="#102942" stroke="#6DFFB8" stroke-width="3" filter="url(#glow)"/>
+    <rect x="904" y="132" width="104" height="102" rx="24" fill="#081524" stroke="#244A66"/>
+    <path class="wave" d="M916 185H934L944 162L958 214L970 185H994" stroke="#00E5FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <circle class="blink" cx="956" cy="153" r="5" fill="#B7FF5A"/>
+    <text x="956" y="225" text-anchor="middle" class="muted" font-size="12">PPG NODE</text>
+  </g>
+
+  <!-- Wireless rings -->
+  <g class="orbit">
+    <circle cx="956" cy="181" r="92" stroke="#00E5FF" stroke-width="2" opacity=".18" stroke-dasharray="12 14"/>
+    <circle cx="956" cy="181" r="118" stroke="#6DFFB8" stroke-width="2" opacity=".15" stroke-dasharray="8 18"/>
+    <circle cx="956" cy="63" r="5" fill="#00E5FF" filter="url(#glow)"/>
+  </g>
+
+  <!-- Bottom ECG line -->
+  <path class="wave" d="M70 318H240L264 288L294 340L328 318H472L494 304L514 318H1130" stroke="url(#cyanGreen)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+</svg>
