@@ -24,7 +24,7 @@
 
 ## 🧬 My Engineering DNA
 
-I am a **second-year Biomedical Engineering undergraduate at the University of Moratuwa** with strong interests in **human-computer interaction**, **wearable healthcare technologies**, **embedded interactive systems**, and **user-centered medical device design**.
+I am a **Biomedical Engineering undergraduate at the University of Moratuwa** interested in **wearable healthcare technologies**, **embedded interactive systems**, **human-computer interaction**, and **user-centered medical device design**.
 
 I like building systems where the full loop matters: **sensing → signal quality → firmware → intelligence → feedback → user experience**.
 
@@ -71,10 +71,9 @@ flowchart LR
 **B.Sc. Engineering (Hons.) in Biomedical Engineering**  
 Department of Electronic & Telecommunication Engineering  
 📅 **June 2024 – Present** | 🎓 **Expected Graduation: 2028**  
-📊 **CGPA: 3.79 / 4.00** | **First Class**  
 🏅 **Dean's List — Semesters 1 & 2**
 
-**Relevant Coursework**
+**Academic focus**
 - Biomedical Device Design
 - Biomedical Instrumentation
 - Signal Processing & Signals and Systems
@@ -88,11 +87,9 @@ Department of Electronic & Telecommunication Engineering
 <td width="45%" valign="top">
 
 ### 🎓 Zahira College, Colombo
-**G.C.E Advanced Level Examination**  
+**G.C.E. Advanced Level — Physical Science Stream**  
 📅 **2020 – 2023**  
-🏆 **3 A's** in Combined Mathematics, Physics, and Chemistry  
-📍 **Island Rank: 407**  
-📈 **Z-score: 2.3330**
+🏆 Passed with distinctions in Combined Mathematics, Physics, and Chemistry
 
 ### 🏅 Recognition
 - Principal's Gold Medal for Best Performance in the G.C.E. A/L Physical Science Stream
@@ -110,7 +107,7 @@ Department of Electronic & Telecommunication Engineering
 
 ### Programming, AI & Vision
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-FF7F00?style=for-the-badge&logo=mathworks&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -168,9 +165,7 @@ Department of Electronic & Telecommunication Engineering
 **Embedded Healthcare • Haptics • Product Design**  
 🏆 **2nd Runners-Up — Brainstorm 2025**
 
-Developed a smart posture-monitoring cushion using **8 FSR402 pressure sensors** and **ultrasonic backrest sensing** to detect poor sitting posture in real time. The system gives **vibrotactile haptic feedback** during slouching and achieved nearly **70% slouch detection accuracy**.
-
-**My contribution:** SolidWorks enclosure system, PCB housing, battery module, internal sensor arrangement, hardware prototyping, sensor placement optimization, circuit testing, and full system integration.
+Built a posture-monitoring cushion with FSR pressure sensing, ultrasonic backrest detection, and vibrotactile feedback for real-time slouch alerts.
 
 <a href="https://github.com/Abdul-Rahman-bme/PulseCode-Posture-Cushion-P.A.P.A.Y.A">Repository →</a>
 
@@ -181,9 +176,7 @@ Developed a smart posture-monitoring cushion using **8 FSR402 pressure sensors**
 **Computer Vision • Embedded Communication • Industrial Automation**  
 **Ongoing Semester 4 Project**
 
-Developing an AI-based inspection system using **YOLO**, **OpenCV**, and embedded communication to automate nitrile glove defect detection and sorting on a conveyor-based line with **SCARA robot integration**.
-
-**Build angle:** real-time vision, defect classification, production-line decision logic, and robot-command-ready output.
+Developing a YOLO/OpenCV inspection pipeline for nitrile glove defect detection and conveyor-line sorting with SCARA robot integration.
 
 <a href="https://github.com/Abdul-Rahman-bme/Glove-Rejection-Inspection-System">Repository →</a>
 
@@ -192,24 +185,20 @@ Developing an AI-based inspection system using **YOLO**, **OpenCV**, and embedde
 <tr>
 <td width="50%" valign="top">
 
-### 🩻 Thyroid Nodule Detection & Malignancy Classification
+### 🩻 Thyroid Nodule Detection & Classification
 **Medical Imaging • Deep Learning • Gradio App**
 
-Developed a deep-learning medical imaging pipeline for **thyroid nodule detection** and **benign/malignant classification** using ultrasound images, deployed as an interactive **Gradio** web application.
-
-**Build angle:** medical image analysis, classification workflow, model inference UI, and healthcare-focused AI experimentation.
+Built a medical imaging workflow for thyroid nodule detection and benign/malignant classification from ultrasound images, with an interactive app interface.
 
 <a href="https://github.com/Abdul-Rahman-bme/Thyroid-nodule-detection-and-classification">Repository →</a>
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ IoT Smart Energy Meter with MQTT and Alerts
+### ⚡ IoT Smart Energy Meter
 **ESP32 • PZEM-004T • MQTT • Telegram/SMS Alerts**
 
-Independently developed an ESP32-based energy monitor measuring voltage, current, power, energy, frequency, and power factor. Wrote full **C++ firmware** with MQTT cloud communication and automated threshold alerts.
-
-**Build angle:** real-time sensing, cloud messaging, edge alerts, and reliable embedded telemetry.
+Created an ESP32-based energy monitor with real-time electrical measurements, cloud messaging, and automated threshold alerts.
 
 <a href="https://github.com/Abdul-Rahman-bme/iot-smart-energy-meter">Repository →</a>
 
@@ -218,24 +207,20 @@ Independently developed an ESP32-based energy monitor measuring voltage, current
 <tr>
 <td width="50%" valign="top">
 
-### 🧊 Temperature-Controlled Vaccine Cold Chain Monitoring
+### 🧊 Vaccine Cold Chain Monitoring System
 **Healthcare IoT • ESP-NOW • Embedded Alerts • Enclosure Design**
 
-Co-developed a portable vaccine cold-chain monitoring system using **ESP8266 / ESP32-S3**, wireless **ESP-NOW** communication, temperature sensing, and audio-visual alert mechanisms.
-
-**Build angle:** resource-aware healthcare monitoring, wireless reliability, and portable product integration.
+Co-developed a portable vaccine temperature monitoring system with ESP8266/ESP32-S3, wireless communication, and audio-visual alerts.
 
 <a href="https://github.com/Abdul-Rahman-bme/Temperature-Controlled-Vaccine-Cooler">Repository →</a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔍 Large-Scale License Plate Detection with YOLOv11
+### 🔍 License Plate Detection with YOLOv11
 **Computer Vision • EasyOCR • Video Streams**
 
-Developed a **YOLOv11 + EasyOCR** pipeline for real-time vehicle license plate detection and text extraction from video streams.
-
-**Build angle:** detection, OCR, inference pipeline design, and practical computer vision deployment.
+Developed a YOLOv11 + EasyOCR pipeline for license plate detection and text extraction from real-time video streams.
 
 <a href="https://github.com/Abdul-Rahman-bme/large-number-plate-detection">Repository →</a>
 
@@ -247,21 +232,17 @@ Developed a **YOLOv11 + EasyOCR** pipeline for real-time vehicle license plate d
 ### ☀️ Analog Automatic Solar Tracker
 **Analog Electronics • PID Control • LTSpice • SOLIDWORKS**
 
-Co-developed a fully analog single-axis solar tracking system using LDR sensors, OPAMP-based control/PID circuitry, LTSpice simulation, and a custom mechanical enclosure.
-
-**Build angle:** analog-first control system design without relying on a microcontroller.
+Co-developed a microcontroller-free solar tracker using LDR sensing, op-amp control circuitry, LTSpice simulation, and mechanical enclosure design.
 
 <a href="https://github.com/Abdul-Rahman-bme/Analog-Solar-Tracker">Repository →</a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔌 UART Transceiver Implementation in FPGA
+### 🔌 UART Transceiver in FPGA
 **Verilog HDL • DE0 Nano FPGA • Digital Systems**
 
-Designed and implemented a UART transceiver using **Verilog HDL** on the **DE0 Nano FPGA** development board as part of the EN2111 Laboratory Practice module.
-
-**Build angle:** hardware description, digital communication, timing, simulation, and FPGA implementation.
+Implemented a UART transceiver on a DE0 Nano FPGA using Verilog HDL, focusing on digital communication and timing logic.
 
 </td>
 </tr>
@@ -271,14 +252,14 @@ Designed and implemented a UART transceiver using **Verilog HDL** on the **DE0 N
 ### 🎤 Automatic Speaker Recognition System
 **Signal Processing • MATLAB • FFT • MFCC**
 
-Developed an FFT and MFCC-based audio preprocessing pipeline in MATLAB for speaker recognition and classification.
+Built an FFT/MFCC audio preprocessing pipeline for speaker recognition and classification.
 
 <a href="https://github.com/Abdul-Rahman-bme/An-Automatic-Speaker-Recognition-System">Repository →</a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🧪 What connects these projects?
+### 🧪 What connects these builds?
 
 ```text
 sensors        → FSR, ultrasonic, temperature, power, camera
@@ -331,7 +312,6 @@ impact         → comfort, safety, inspection, monitoring, accessibility
 - 📚 **Dean's List** — Semesters 1 & 2, University of Moratuwa
 - 🥇 **Principal's Gold Medal** — Best Performance in G.C.E. A/L Physical Science Stream, Zahira College
 - 🧮 **Distinction Award** — Sri Lanka Mathematics Olympiad Competition 2018
-- 🎓 **First Class standing** — CGPA 3.79 / 4.00
 
 </td>
 </tr>
