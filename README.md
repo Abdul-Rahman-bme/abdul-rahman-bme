@@ -1,8 +1,8 @@
-<div align="center">
+<!-- <div align="center">
 
 <img src="./assets/wearable-healthcare-lab.svg" alt="Animated wearable healthcare embedded systems banner" width="100%" />
 
-<br/>
+<br/> -->
 
 # 👋 Hi, I'm Abdul Rahman Mohamed Farharth
 
